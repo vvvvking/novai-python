@@ -1,5 +1,7 @@
 # novai-python
 
+<!-- mcp-name: io.github.vvvvking/novai-python -->
+
 OpenAI-compatible **SDK + MCP server** for 120+ Chinese frontier AI models
 (DeepSeek, Qwen, GLM, Kimi, Seedance, MiniMax, Hunyuan, CogVideoX, ...) via
 [NovAI](https://aiapi-pro.com) — one key, one endpoint, **0% platform fee**
@@ -12,8 +14,10 @@ OpenAI-compatible **SDK + MCP server** for 120+ Chinese frontier AI models
 
 ## Install
 
+Until the package lands on PyPI, install from source:
+
 ```bash
-pip install novai
+pip install git+https://github.com/vvvvking/novai-python.git
 export NOVAI_API_KEY=sk-...   # https://aiapi-pro.com/register ($2 free)
 ```
 
