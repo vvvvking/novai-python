@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novai"
+version = "0.1.0"
+description = "OpenAI-compatible SDK + MCP server for 120+ Chinese frontier AI models (DeepSeek, Qwen, GLM, Kimi, Seedance, MiniMax, Hunyuan) via NovAI. Zero platform fee."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["ai", "llm", "openai-compatible", "chinese-ai", "deepseek", "qwen", "glm", "mcp"]
+dependencies = [
+  "openai>=1.30",
+  "mcp>=1.0",
+]
+
+[project.urls]
+Homepage = "https://aiapi-pro.com"
+Documentation = "https://aiapi-pro.com/docs"
+Pricing = "https://aiapi-pro.com/china-ai-leaderboard.html"
+
+[project.scripts]
+novai-mcp = "novai.mcp_server:mcp.run"
+
+[tool.setuptools.packages.find]
+include = ["novai*"]
