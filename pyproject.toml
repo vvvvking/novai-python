@@ -3,8 +3,8 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "novai"
-version = "0.1.0"
+name = "aiapi-pro"
+version = "0.1.1"
 description = "OpenAI-compatible SDK + MCP server for 120+ Chinese frontier AI models (DeepSeek, Qwen, GLM, Kimi, Seedance, MiniMax, Hunyuan) via NovAI. Zero platform fee."
 readme = "README.md"
 requires-python = ">=3.9"

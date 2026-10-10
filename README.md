@@ -14,7 +14,14 @@ OpenAI-compatible **SDK + MCP server** for 120+ Chinese frontier AI models
 
 ## Install
 
-Until the package lands on PyPI, install from source:
+PyPI package name: `aiapi-pro` (import name: `novai`). Once published:
+
+```bash
+pip install aiapi-pro
+export NOVAI_API_KEY=sk-...   # https://aiapi-pro.com/register ($2 free)
+```
+
+From source (always current):
 
 ```bash
 pip install git+https://github.com/vvvvking/novai-python.git

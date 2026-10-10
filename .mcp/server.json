@@ -1,15 +1,15 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.vvvvking/novai-python",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Chinese frontier AI models as MCP tools via one OpenAI-compatible endpoint, zero platform fee.",
   "title": "NovAI - Chinese AI Models Gateway",
   "websiteUrl": "https://aiapi-pro.com",
   "packages": [
     {
       "registryType": "pypi",
-      "identifier": "novai",
-      "version": "0.1.0",
+      "identifier": "aiapi-pro",
+      "version": "0.1.1",
       "transport": { "type": "stdio" },
       "packageArguments": [],
       "environmentVariables": [
