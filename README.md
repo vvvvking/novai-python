@@ -18,14 +18,14 @@ PyPI package name: `aiapi-pro` (import name: `novai`). Once published:
 
 ```bash
 pip install aiapi-pro
-export NOVAI_API_KEY=sk-...   # https://aiapi-pro.com/register ($2 free)
+export NOVAI_API_KEY=nvai-...   # https://aiapi-pro.com/register ($2 free)
 ```
 
 From source (always current):
 
 ```bash
 pip install git+https://github.com/vvvvking/novai-python.git
-export NOVAI_API_KEY=sk-...   # https://aiapi-pro.com/register ($2 free)
+export NOVAI_API_KEY=nvai-...   # https://aiapi-pro.com/register ($2 free)
 ```
 
 ## SDK quickstart
@@ -42,7 +42,7 @@ Any existing OpenAI code works by swapping the base URL:
 
 ```python
 from openai import OpenAI
-c = OpenAI(base_url="https://aiapi-pro.com/v1", api_key="sk-...")
+c = OpenAI(base_url="https://aiapi-pro.com/v1", api_key="nvai-...")
 ```
 
 ## MCP server
@@ -55,7 +55,7 @@ Expose the models as tools to any MCP client (Claude Desktop, Cursor, Cline, ...
     "novai": {
       "command": "python",
       "args": ["-m", "novai.mcp_server"],
-      "env": { "NOVAI_API_KEY": "sk-..." }
+      "env": { "NOVAI_API_KEY": "nvai-..." }
     }
   }
 }
