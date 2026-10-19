@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aiapi-pro"
 version = "0.1.1"
-description = "OpenAI-compatible SDK + MCP server for 120+ Chinese frontier AI models (DeepSeek, Qwen, GLM, Kimi, Seedance, MiniMax, Hunyuan) via NovAI. Zero platform fee."
+description = "OpenAI-compatible SDK + MCP server for 110+ Chinese frontier AI models (DeepSeek, Qwen, GLM, Kimi, Seedance, MiniMax, Hunyuan) via NovAI. Zero platform fee."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
