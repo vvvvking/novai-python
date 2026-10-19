@@ -8,7 +8,7 @@ OpenAI-compatible **SDK + MCP server** for 120+ Chinese frontier AI models
 (raw provider list price; vs OpenRouter ~5.5% markup).
 
 - Endpoint: `https://aiapi-pro.com/v1` (change one `base_url` line from any OpenAI code)
-- Free: `$2` signup credit, no card; plus free-unlimited models
+- Free: `$2` signup credit, no card; plus 5 free models (no credit charge; 10 calls/day on the free tier)
   (`glm-4.7-flash`, `glm-4.6v-flash`, `glm-4.1v-thinking-flash`, `cogview-3-flash`, `cogvideox-flash`)
 - Live pricing: <https://aiapi-pro.com/china-ai-leaderboard.json>
 
