@@ -7,7 +7,7 @@ name = "aiapi-pro"
 version = "0.1.1"
 description = "OpenAI-compatible SDK + MCP server for 110+ Chinese frontier AI models (DeepSeek, Qwen, GLM, Kimi, Seedance, MiniMax, Hunyuan) via NovAI. Zero platform fee."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 keywords = ["ai", "llm", "openai-compatible", "chinese-ai", "deepseek", "qwen", "glm", "mcp"]
 dependencies = [
