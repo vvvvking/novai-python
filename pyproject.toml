@@ -12,7 +12,7 @@ license = { text = "MIT" }
 keywords = ["ai", "llm", "openai-compatible", "chinese-ai", "deepseek", "qwen", "glm", "mcp"]
 dependencies = [
   "openai>=1.30",
-  "mcp>=1.0",
+  "mcp>=1.0,<2",
 ]
 
 [project.urls]
