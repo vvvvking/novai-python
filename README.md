@@ -1,5 +1,8 @@
 # novai-python
 
+[![vvvvking/novai-python MCP server](https://glama.ai/mcp/servers/vvvvking/novai-python/badges/score.svg)](https://glama.ai/mcp/servers/vvvvking/novai-python)
+
+
 <!-- mcp-name: io.github.vvvvking/novai-python -->
 
 OpenAI-compatible **SDK + MCP server** for 120+ Chinese frontier AI models
